@@ -3,20 +3,51 @@
   <head>
     <title>Home</title>
 
-    <! -- Headings and Text Styling -- >
-    h1
-    {
-      font-family: Arial, Helvetica, sans-serif;
-      font-style: bold;
-      font-size: 4em;
-      text-align: center;
-      color: black;
-    }
-    h2
-    {
-      font-size: 2em;
-      color: black;
-    }
+      <style>
+        <! -- Nav Bar -- >
+        nav
+        {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 10px;
+          background-color: white;
+          border: 2px solid black;
+          width: 100%
+          padding: 10px;
+          margin-bottom: 25px;
+          border-radius: 8px;
+        }
+
+        nav a
+        {
+          color: black;
+          text-decoration: none;
+          font-weight: bold;
+          padding: 8px 12px;
+          white-space: nowrap;
+        }
+
+        nav a:hover
+        {
+          text-decoration: underline;
+        }
+        
+        <! -- Headings and Text Styling -- >
+        h1
+        {
+          font-family: Arial, Helvetica, sans-serif;
+          font-style: bold;
+          font-size: 4em;
+          text-align: center;
+          color: black;
+        }
+        h2
+        {
+          font-size: 2em;
+          color: black;
+        }
+      </style>
     
   </head>
 
@@ -27,6 +58,11 @@
 
     <nav>
       <a href="index.html"> Home </a>
+      <a>Application Examples</a>
+      <a>Ethical Lenses</a>
+      <a>Social Implications</a>
+      <a>Recommendations</a>
+      <a>References</a>
     </nav>
 
     <div class="block">
