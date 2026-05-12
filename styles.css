@@ -85,11 +85,7 @@
           text-decoration: underline;
         }
 
-        nav a.active
-        {
-          text-decoration: underline;
-        }
-        
+
         /* -- Headings and Text Styling -- */
         h1
         {
